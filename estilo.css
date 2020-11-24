@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-principal {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(pexels-roberto-nickson-2885320.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.main-principal .section-principal {
+  background-color: #2d85cc;
+  height: 50%;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.main-principal .section-principal .div-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-backdrop-filter: brightness(0.5);
+          backdrop-filter: brightness(0.5);
+}
+
+.main-principal .section-principal .div-principal .div-secundaria h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.main-principal .section-principal .div-principal .div-secundaria .element-input {
+  display: block;
+  margin: 0 auto;
+  width: 55px;
+  height: 30px;
+  margin-bottom: 1rem;
+  padding-left: 10px;
+  outline: none;
+}
+
+.main-principal .section-principal .div-principal .div-secundaria .element-button {
+  display: block;
+  width: 55%;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.main-principal .section-principal .div-principal .div-secundaria .element-p {
+  padding: 7px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+  width: 130px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 1rem;
+  height: 23px;
+  color: #000;
+}
+
+.main-principal .section-principal .div-principal .div-secundaria .element-ppp {
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=estilo.css.map */
